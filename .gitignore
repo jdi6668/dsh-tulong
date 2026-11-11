@@ -1,0 +1,4 @@
+node_modules/
+tools/skillcache/
+*.log
+.DS_Store

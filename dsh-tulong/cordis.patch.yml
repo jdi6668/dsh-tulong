@@ -1,0 +1,5 @@
+# dsh-tulong bundle patch: mount the plugin row into the profile composition.
+# The package half is a no-op host plugin; the ./client bundle owns the page.
+- insert:
+    - id: dsh-tulong
+      name: dsh-tulong

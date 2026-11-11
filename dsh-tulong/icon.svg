@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Tulong">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a2e"/>
+      <stop offset="0.55" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#1a1226"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#3b6ef6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3b6ef6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eefc"/>
+      <stop offset="1" stop-color="#8fa6cc"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd479"/>
+      <stop offset="0.55" stop-color="#ff9d3c"/>
+      <stop offset="1" stop-color="#f2542d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe3a3"/>
+      <stop offset="1" stop-color="#c8922f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <rect width="256" height="256" rx="56" fill="url(#glow)"/>
+
+  <g fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.5">
+    <circle cx="128" cy="124" r="86" stroke-dasharray="2 9"/>
+    <circle cx="128" cy="124" r="72" stroke-dasharray="26 16"/>
+  </g>
+
+  <g fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M128 50l54 21v52c0 36-25 62-54 76-29-14-54-40-54-76V71z" fill="#0c1526" fill-opacity="0.85"/>
+    <path d="M128 50l54 21v52c0 36-25 62-54 76-29-14-54-40-54-76V71z" opacity="0.45" stroke-width="1.5"/>
+  </g>
+
+  <g>
+    <path d="M128 82c17 22 27 38 27 55 0 21-12 36-27 47-15-11-27-26-27-47 0-17 10-33 27-55z" fill="url(#flame)"/>
+    <path d="M128 112c8 11 13 19 13 29 0 11-6 19-13 25-7-6-13-14-13-25 0-10 5-18 13-29z" fill="#0c1526" fill-opacity="0.55"/>
+    <path d="M128 82c17 22 27 38 27 55 0 21-12 36-27 47-15-11-27-26-27-47 0-17 10-33 27-55z" fill="none" stroke="#ffe6b8" stroke-opacity="0.55" stroke-width="1.5"/>
+  </g>
+
+  <g stroke="url(#steel)" stroke-width="6" stroke-linecap="round">
+    <path d="M96 190l-12 12"/>
+    <path d="M160 190l12 12"/>
+  </g>
+
+  <g fill="url(#gold)">
+    <path d="M128 26l3.6 8.4L140 38l-8.4 3.6L128 50l-3.6-8.4L116 38l8.4-3.6z"/>
+    <circle cx="68" cy="70" r="2.6"/>
+    <circle cx="192" cy="66" r="2"/>
+    <circle cx="196" cy="176" r="2.4"/>
+    <circle cx="58" cy="168" r="1.8"/>
+  </g>
+</svg>
